@@ -1,0 +1,40 @@
+:root{
+    --clr-bckgr: #0B0C10;
+    --clr-container: #1F2833;
+    --clr-txt:#66FCF1;
+    --clr-bttn:#45A29E;
+}
+body{
+    background-color: var(--clr-bckgr);
+}
+.container{
+    border: 1px solid black;
+    border-radius: 1rem;
+    width: 70%;
+    height: 24rem;
+    margin: 25% auto;
+    text-align: center;
+    background-color: var(--clr-container);
+    color: var(--clr-txt);
+}
+.title_and_description{
+    padding: 0 0 2em 0;
+}
+.number_input{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+input{
+    width: 3rem;
+    height: 2rem;
+    margin: auto;
+}
+button{
+    width: 5rem;
+    height: 2rem;
+    border-color: var(--clr-bttn);
+    background-color: var(--clr-container);
+    color: var(--clr-txt);
+    margin: 1rem auto;
+}
