@@ -1,9 +1,9 @@
 const submitButton = document.getElementById("submit"); 
 
 function changeText(){
-const answer = 17;
-const answerStatus = document.getElementById("number").value; //this variable is the number you put in
-const answerDirection = document.getElementById("direction"); //this variable is the direction for you to get the right answer
+    var answer = 17;
+    const answerStatus = document.getElementById("number").value; //this variable is the number you put in
+    const answerDirection = document.getElementById("direction"); //this variable is the direction for you to get the right answer
 
     if(answerStatus < answer){ 
         answerDirection.innerText = "The answer is higher";
