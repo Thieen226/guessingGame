@@ -6,7 +6,7 @@ function changeText(){
     const answerDirection = document.getElementById("direction"); //this variable is the direction for you to get the right answer
 
     if(answerStatus < answer){ 
-        answerDirection.innerText = "The answer is higher";
+        answerDirection.innerText = "The answer is higher"
     }
     else if(answerStatus > answer){
         answerDirection.innerText = "The answer is lower";
