@@ -7,12 +7,15 @@ function changeText(){
 
     if(answerStatus < answer){ 
         answerDirection.innerText = "The answer is higher";
+        answerDirection.style.color="red";
     }
     else if(answerStatus > answer){
         answerDirection.innerText = "The answer is lower";
+        answerDirection.style.color="red";
     }
     else{
         answerDirection.innerText = "Nice job! It is correct";
+        answerDirection.style.color="#4CAF50";
     }
 }
 
